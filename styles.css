@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: larger; 
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg");
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #52b485;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 0 15px #373b527c;
+    
+    
+}
+/*scroll bar*/
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+body::-webkit-scrollbar {
+    width: 11px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #07060ad0;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #52b485;    /* color of the scroll thumb */
+    border-radius: 5px;       /* roundness of the scroll thumb */
+    border: 2px solid #5bca95;  /* creates padding around scroll thumb */
+  }
+  
+
+  .cloud {
+    font-size: 60px;
+    margin-left: -450px;
+    margin-top: 25px;
+    color:#FFF
+    
+ }
+ 
+
+/*img*/
+
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.title__one {
+    color: #FFF;
+    font-family: "Lexend Zetta", sans-serif;
+    font-size: 42px;
+}
+
+
+
+.logo img {
+    max-width: 60px;
+    border-radius: 50px;
+}
+nav {
+    padding-top: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: domine;
+    font-size: 25px;
+    margin-left: -450px;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover {
+    color: #032ff1;
+    transform: scale(00.3s);
+}
+
+.img__tittle {
+    width: 100px;
+    height: 100px;
+    margin-left: 1100px;
+    border-radius: 50px;
+}
+
+.container {
+    max-width: 1000px;    
+    margin: 40px auto;
+    padding: 45px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+    
+}
+.container2 {
+    max-width: 800px;    
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+    
+}
+
+.container3 {
+    max-width: 800px;    
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+    
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 30px;
+    
+    
+}
+   
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-size: smaller;
+    
+}
+
+button:hover {
+    transform: scale(1.5);
+}
+
+button img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #00000096;
+    color: #ffffff88;
+    text-align: center;
+    padding: 15px 0;
+    
+    bottom: 0;
+    max-width: 100%;
+    
+}
+
+.footer2 {
+    font-size: 15px;
+    
+}
+
+    
+
+@media only screen and (max-width: 600px) {
+    /* nav ul li {
+        display: block;
+        margin: 10px 0;
+    } */
+    nav ul {
+        position: fixed;
+        top: var(--header-height);
+        left: -100%;
+        width: 80%;
+        height: calc(100vh - var(--header-height));
+        padding: 60px 20px 40px;        
+        transition: left .5s ease-in-out;
+      }
+      show-menu {
+        left: 0;
+      }
+}
+
+/*SOPORTE*/
+.img-end {
+    padding: 10px;
+    margin-left: 1005px;
+    margin-top: -280px;
+    
+}
+
+.form {
+    background-color: #52b485;
+    width: 90%;
+    max-width: 400px; 
+    margin: auto;
+    flex-direction: column;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+
+} 
+    
+.form__title {
+    text-align: center;    
+    margin-bottom: .4em;
+    color: #336810;
+    font-family: "Lexend Zetta", sans-serif;
+    font-size: 42px;
+}
+
+.form__container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+
+}
+.form__input {
+font-family: inherit;
+font-size:  1em;
+padding: .8em 1em;
+outline: none;
+border: none;
+border: .7px solid #52b485;
+border-radius: 0.3em;
+}  
+
+.form__input--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .6em;
+}
+
+.form__cta {
+    font-family: inherit;
+    background-color: #3d8b66;
+    border: none;
+    font-weight: 300;
+    font-size: 1em;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+}
