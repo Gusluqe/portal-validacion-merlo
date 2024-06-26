@@ -14,12 +14,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top: 0;
+    left: 0;
     background-color: #52b485;
-    color: white;
-    padding: 10px 20px;
-    box-shadow: 0 0 15px #373b527c;
-    
-    
+    padding: 10px 20px;    
+    width: 100%;    
+}
+
+.header {
+    position: fixed;
 }
 /*scroll bar*/
 /* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
@@ -40,11 +43,17 @@ body::-webkit-scrollbar {
   
 
   .cloud {
-    font-size: 60px;
-    margin-left: -450px;
+    font-size: 50px;
     margin-top: 25px;
-    color:#FFF
-    
+    color:#FFF;
+    margin-right: -110px; 
+ }
+
+ .music {
+    font-size: 50px;
+    margin-top: 25px;
+    color:#FFF;
+    margin-right: 45px; 
  }
  
 
@@ -70,7 +79,7 @@ img {
     border-radius: 50px;
 }
 nav {
-    padding-top: 15px;
+    padding-top: 13px;
 }
 
 nav ul {
@@ -79,16 +88,12 @@ nav ul {
     padding: 0;
     font-family: domine;
     font-size: 25px;
-    margin-left: -450px;
-    
+    margin-left: 20px;    
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
-
-
-    
+    margin-right: 20px;    
 }
 
 nav ul li a {
@@ -99,7 +104,9 @@ nav ul li a {
 
 a:hover {
     color: #032ff1;
-    transform: scale(00.3s);
+    /* transform: translatex(10px);
+    transition: transform .4s; */
+    
 }
 
 .img__tittle {
@@ -262,4 +269,5 @@ border-radius: 0.3em;
     border-radius: .2em;
     cursor: pointer;
     font-weight: 400;
+    color: #FFF;
 }
