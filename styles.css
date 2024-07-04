@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
  .music {
     font-size: 50px;
     margin-top: 25px;
-    color:#FFF;
+    
     margin-right: 45px; 
  }
  
@@ -125,6 +125,16 @@ a:hover {
     
     
 }
+
+.container1 {
+    max-width: 1200px;    
+    margin: 40px auto;
+    padding: 60px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    
+    
+}
 .container2 {
     max-width: 800px;    
     margin: 40px auto;
@@ -159,7 +169,7 @@ button {
     background: none;
     cursor: pointer;
     transition: transform 0.3s ease;
-    font-size: smaller;
+    
     
 }
 
@@ -168,7 +178,7 @@ button:hover {
 }
 
 button img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 5px;
 }
@@ -271,3 +281,166 @@ border-radius: 0.3em;
     font-weight: 400;
     color: #FFF;
 }
+
+
+.btn-close {
+    display: none;
+  }
+
+.whatsapp {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 1160px;
+    padding: 10px;
+    
+}
+
+
+
+.whatsapp button:hover {
+    transform: none;
+}
+
+/*SLIDER*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin: 5px auto 0;
+	overflow: hidden;
+    
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 300%;    	
+	animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 650px;
+
+    
+    
+}
+
+.slider-frame img {
+	width: 350PX;
+    border-radius: 20px;
+    
+    
+}
+
+
+/*SLICE COLAGENO*/
+.slider-frame1 {
+	width: 1280px;
+    height: auto;
+	margin: 5px auto 0;
+	overflow: hidden;
+    
+}
+
+.slider-frame1 ul {
+	display: flex;
+	padding: 0;
+	width: 200%;    	
+	
+}
+
+.slider-frame1 li {
+	width: 280px;
+            
+}
+
+.slider-frame1 img {
+	width: 100%;
+    border-radius: 20px;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 768px) {
+    .nav-menu {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 80%;
+      height: 10px;
+      padding: 60px 20px 40px;
+      background-color: #333;
+      transition: left .5s ease-in-out;
+    }
+    btn-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 28px;
+        display: block;
+        
+      }
+
+      button.btn-open {
+        font-size: 28px;
+      }
+
+      .menu-list {
+        flex-direction: column;
+      }
+    
+    
+    .list-link {
+    font-size: 20px;
+    font-weight: 600;
+    transition: color .3s;
+    }
+    
+    .list-item.active .list-link {
+    color: var(--primary-color);
+    }
+    
+    
+    .list-link:hover {
+    color: var(--primary-color);
+    }
+    
+    .actions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    }
+}
+@media (min-width: 768px) {
+    .btn-open {
+      display: none;
+    }
+  } 
