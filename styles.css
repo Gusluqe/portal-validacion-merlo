@@ -316,32 +316,36 @@ h2 {
     padding-top: 50px;
 }
 
+/*SLIDE ALERGIAS*/
+
 .slider-frame {
-	width: 1280px;
-    height: auto;
+	width: 100%;
+    height: 100%;
 	margin: 5px auto 0;
 	overflow: hidden;
     
 }
 
 .slider-frame ul {
-	display: flex;
-	padding: 0;
-	width: 300%;    	
+	display: flex;	
+	width: 350%;    	
 	animation: slide 15s infinite alternate ease-in-out;
+    
 }
 
 .slider-frame li {
-	width: 650px;
-
-    
+	width: 450px;
+    padding: 35px;
+    margin-left: 55px;
     
 }
 
 .slider-frame img {
-	width: 350PX;
+	width: 500PX;
+    height: 300px;    
     border-radius: 20px;
-    
+    box-shadow: 15px 15px #05050557;
+    margin-left: 25px;
     
 }
 
@@ -352,25 +356,244 @@ h2 {
     height: auto;
 	margin: 5px auto 0;
 	overflow: hidden;
-    
 }
 
 .slider-frame1 ul {
 	display: flex;
 	padding: 0;
-	width: 200%;    	
-	
+	width: 200%;
 }
 
 .slider-frame1 li {
 	width: 280px;
-            
+    padding: 18px;
 }
 
 .slider-frame1 img {
 	width: 100%;
+
     border-radius: 20px;
+    box-shadow: 15px 15px #05050557;
 }
+
+/*SLICE ALERGIAS*/
+.slider-frame3 {
+	width: 100%;
+    height: 100%;
+	margin: 5px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame3 ul {
+	display: flex;
+	padding: 15px;
+	width: 250%;    	
+    
+}
+
+.slider-frame3 li {
+	width: 280px;
+    padding: 20px;
+}
+
+.slider-frame3 img {
+	width: 300px;
+    height: 500px;    
+    border-radius: 20px;
+    box-shadow: 15px 15px #05050557;
+    margin-left: 25px;
+}
+
+
+/* slide pocos*/
+
+.slider-frame4 {
+	width: 100%;
+    height: 100%;
+	margin: 5px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame4 ul {
+	display: flex;
+	padding: 15px;
+	width: 250%;   
+    margin-left: 150px; 	
+    
+}
+
+.slider-frame4 li {
+	width: 280px;
+    padding: 20px;
+}
+
+.slider-frame4 img {
+	width: 280px;
+    height: 480px;    
+    border-radius: 20px;
+    box-shadow: 15px 15px #05050557;
+    margin-left: 25px;
+}
+
+/*SLICE CABELLO*/
+.slider-frame5 {
+	width: 100%;
+    height: 100%;
+	margin: 5px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame5 ul {
+	display: flex;
+	padding: 15px;
+	width: 250%;    	
+    
+}
+
+.slider-frame5 li {
+	width: 280px;
+    padding: 20px;
+}
+
+.slider-frame5 img {
+	width: 500px;
+    height: 300px;    
+    border-radius: 20px;
+    box-shadow: 15px 15px #05050557;
+    margin-left: 300px;
+}
+
+/*SLICE COLAGENO*/
+.slider-frame6 {
+	width: 100%;
+    height: 100%;
+	margin: 5px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame6 ul {
+	display: flex;	
+	width: 250%;    	
+	animation: slide 15s infinite alternate ease-in-out;
+    pad: 45px;
+}
+
+.slider-frame6 li {
+	width: 600px;
+    padding: 30px;
+}
+
+.slider-frame6 img {
+	width: 300PX;
+    height: 400px;    
+    border-radius: 20px;
+    box-shadow: 15px 15px #05050557;
+    margin-left: 25px;
+}
+
+/*slide alergia*/
+
+.slider-frame7 {
+	width: 1280px;
+    height: auto;
+	margin: 5px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame7 ul {
+	display: flex;
+	padding: 0;
+	width: 200%;
+}
+
+.slider-frame7 li {
+	width: 280px;
+    padding: 18px;
+}
+
+.slider-frame7 img {
+	width: 300PX;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 15px 15px #05050557;
+}
+
+
+/*slider sex*/
+.slider-frame8 {
+	width: 100%;
+    height: 100%;
+	margin: 5px auto 0;
+	overflow: hidden;
+    
+}
+
+.slider-frame8 ul {
+	display: flex;	
+	width: 350%;    	
+	animation: slide 15s infinite alternate ease-in-out;
+    
+}
+
+.slider-frame8 li {
+	width: 290px;
+    padding: 35px;
+    margin-left: 55px;
+    
+}
+
+.slider-frame8 img {
+	width: 300PX;
+    height: 400px;    
+    border-radius: 20px;
+    box-shadow: 15px 15px #05050557;
+    margin-left: 30px;
+    
+}
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: 0;}
+}
+
+
+/*slide completo*/
+.slider-frame4 {
+	width: 100%;
+    height: 100%;
+	margin: 5px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame3 ul {
+	display: flex;
+	padding: 15px;
+	width: 250%;   
+    margin-left: 150px; 	
+    
+}
+
+.slider-frame3 li {
+	width: 280px;
+    padding: 20px;
+}
+
+.slider-frame3 img {
+	width: 280px;
+    height: 480px;    
+    border-radius: 20px;
+    box-shadow: 15px 15px #05050557;
+    margin-left: 25px;
+}
+
 
 @keyframes slide {
 	0% {margin-left: 0;}
@@ -383,9 +606,8 @@ h2 {
 	70% {margin-left: -200%;}
 	
 	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
+	100% {margin-left: 0;}
 }
-
 
 /*RESPONSIVE*/
 
