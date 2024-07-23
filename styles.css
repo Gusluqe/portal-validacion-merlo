@@ -49,11 +49,19 @@ body::-webkit-scrollbar {
     margin-right: -110px; 
  }
 
+ .cloud a {
+    color: white;
+ }
+
  .music {
     font-size: 50px;
     margin-top: 25px;
     
     margin-right: 45px; 
+ }
+
+ .music a {
+    color: white;
  }
  
 
@@ -327,22 +335,23 @@ h2 {
 }
 
 .slider-frame ul {
-	display: flex;	
-	width: 350%;    	
-	animation: slide 15s infinite alternate ease-in-out;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   
     
 }
 
 .slider-frame li {
-	width: 450px;
-    padding: 35px;
+	width: 280px;
+    padding: 32px;
     margin-left: 55px;
     
 }
 
 .slider-frame img {
-	width: 500PX;
-    height: 300px;    
+	width: 100%;      
     border-radius: 20px;
     box-shadow: 15px 15px #05050557;
     margin-left: 25px;
@@ -432,7 +441,7 @@ h2 {
     height: 480px;    
     border-radius: 20px;
     box-shadow: 15px 15px #05050557;
-    margin-left: 25px;
+    margin-left: 355px;
 }
 
 /*SLICE CABELLO*/
@@ -592,6 +601,29 @@ h2 {
     border-radius: 20px;
     box-shadow: 15px 15px #05050557;
     margin-left: 25px;
+}
+
+.back {
+    width: auto;
+    height: auto;
+    color: #336810;
+    font-size: larger;
+    margin-left: 10px;
+    font-family: "Lexend zetta", sans-serif;
+    
+}
+.back button {
+    background-color: #B1D038;
+    border-radius: 5px;
+    
+}
+.back button:hover {
+    transform: none;
+    color: #032ff1;
+}
+
+.back a {
+    color:#0a0505;
 }
 
 
