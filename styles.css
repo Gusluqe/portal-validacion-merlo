@@ -613,17 +613,21 @@ h2 {
     
 }
 .back button {
-    background-color: #B1D038;
+    background-color: #52b485;
     border-radius: 5px;
     
 }
 .back button:hover {
     transform: none;
+}
+
+.back a:hover {    
     color: #032ff1;
+    
 }
 
 .back a {
-    color:#0a0505;
+    color:#ffffff;
 }
 
 
