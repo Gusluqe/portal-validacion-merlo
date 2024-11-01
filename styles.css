@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Satisfy&display=swap');
+
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     font-size: larger; 
-    background-image: url("https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg");
+    background-image: url("https://wallpapers.com/images/hd/fondonegro-4k-cautivador-m8k0dox5n1m3gcbt.jpg");
+    background-size: cover;
 }
 
 /*"https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg"*/
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
     align-items: center;
     top: 0;
     left: 0;
-    background-color: #52b485;
+    background-color: #3aa873;
     padding: 10px 20px;    
-    width: 100%;    
+    width: 100%;  
+    box-shadow: 1px 10px 10px #3d8b66;  
 }
 
 .header {
@@ -36,9 +40,9 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: #52b485;    /* color of the scroll thumb */
+    background-color: #3aa873;    /* color of the scroll thumb */
     border-radius: 5px;       /* roundness of the scroll thumb */
-    border: 2px solid #5bca95;  /* creates padding around scroll thumb */
+    border: 2px solid #3aa873;  /* creates padding around scroll thumb */
   }
   
 
@@ -46,7 +50,7 @@ body::-webkit-scrollbar {
     font-size: 50px;
     margin-top: 25px;
     color:#FFF;
-    margin-right: -110px; 
+    margin-right: 60px; 
  }
 
  .cloud a {
@@ -75,9 +79,9 @@ img {
 }
 
 .title__one {
-    color: #FFF;
-    font-family: "Lexend Zetta", sans-serif;
-    font-size: 42px;
+    color: #FFF;    
+    font-family: "Satisfy", cursive;
+    font-size: 45px;
 }
 
 
@@ -130,6 +134,7 @@ a:hover {
     padding: 45px;
     background-color: #ffffff;
     border-radius: 10px;
+    box-shadow: 2px 2px 30px 15px #336810;
     
     
 }
@@ -192,10 +197,10 @@ button img {
 }
 
 footer {
-    background-color: #00000096;
+    background-color: #413e3e3d;
     color: #ffffff88;
     text-align: center;
-    padding: 15px 0;
+    padding: 20px 0;
     
     bottom: 0;
     max-width: 100%;
@@ -296,18 +301,23 @@ border-radius: 0.3em;
   }
 
 .whatsapp {
-    width: 150px;
-    height: auto;
+    width: 110px;
+    height: auto;    
+    margin-top: 10px;
     border-radius: 5px;
-    margin-left: 1160px;
-    padding: 10px;
+    margin-left: 1230px;
     
+   
 }
-
+.whatsapp button {
+    margin-top: 15px;
+   
+}
 
 
 .whatsapp button:hover {
     transform: none;
+   
 }
 
 /*SLIDER*/
