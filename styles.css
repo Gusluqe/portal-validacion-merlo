@@ -22,11 +22,12 @@ header {
     background-color: #3aa873;
     padding: 10px 20px;    
     width: 100%;  
-    box-shadow: 1px 10px 10px #3d8b66;  
+    box-shadow: 1px 5px 5px #3d8b66;  
 }
 
 .header {
     position: fixed;
+    z-index: 99;
 }
 /*scroll bar*/
 /* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
@@ -342,6 +343,7 @@ h2 {
 	margin: 5px auto 0;
 	overflow: hidden;
     
+    
 }
 
 .slider-frame ul {
@@ -354,7 +356,7 @@ h2 {
 }
 
 .slider-frame li {
-	width: 280px;
+	width: 250px;
     padding: 32px;
     margin-left: 55px;
     
@@ -365,6 +367,7 @@ h2 {
     border-radius: 20px;
     box-shadow: 15px 15px #05050557;
     margin-left: 25px;
+    mix-blend-mode: exclusion ;
     
 }
 
@@ -617,7 +620,7 @@ h2 {
     width: auto;
     height: auto;
     color: #336810;
-    font-size: larger;
+    font-size: 20px;
     margin-left: 10px;
     font-family: "Lexend zetta", sans-serif;
     
